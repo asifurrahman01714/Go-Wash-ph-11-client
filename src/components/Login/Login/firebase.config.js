@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAa1JAtwsiSjoKBnT1I86Oa6KukDlhahIk",
-  authDomain: "doctorsportal-9ccb2.firebaseapp.com",
-  projectId: "doctorsportal-9ccb2",
-  storageBucket: "doctorsportal-9ccb2.appspot.com",
-  messagingSenderId: "79133480252",
-  appId: "1:79133480252:web:baf5d2b035bcf45412ba39"
+  apiKey: "AIzaSyDxPmHtkmZVEGHmcro1Ymr2KFshFWRpflQ",
+  authDomain: "gowash-71b64.firebaseapp.com",
+  projectId: "gowash-71b64",
+  storageBucket: "gowash-71b64.appspot.com",
+  messagingSenderId: "1045665018241",
+  appId: "1:1045665018241:web:227711302222936dd2f880"
 };
 
 export default firebaseConfig;
