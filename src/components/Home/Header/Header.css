@@ -1,7 +1,7 @@
 .header-container {
     height:800px;
     position:relative;
-    background-image: url('../../../images/GoWash.bg.jpg');
+    background-image: url('https://i.ibb.co/DWF6n5y/Go-Wash-bg.jpg');
     background-size: cover;
 }
 /* .header-container::after {

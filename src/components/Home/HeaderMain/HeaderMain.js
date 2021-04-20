@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import GoWash from '../../../images/GoWash.jpg';
+
 
 const HeaderMain = () => {
     return (
@@ -11,7 +11,7 @@ const HeaderMain = () => {
                 <Link to="/dashboard" className="btn btn-brand">GET APPOINTMENT</Link>
             </div>
             <div className="col-md-6 col-sm-6 col-12">
-                <img src={GoWash} alt="" className="img-fluid"/>
+                <img src="https://i.ibb.co/W3J14MQ/GoWash.jpg" alt="" className="img-fluid"/>
             </div>
         </main>
     );

@@ -16,6 +16,7 @@ import BookingList from './components/BookingList/BookingList';
 import Review from './components/Dashboard/Review/Review';
 import AddService from './components/AddService/AddService';
 import AddAdmin from './components/AddAdmin/AddAdmin';
+import Contact from './components/Home/Contact/Contact';
 
 export const UserContext = createContext();
 export const IdContext = createContext();
@@ -42,6 +43,10 @@ function App() {
 
           <Route path="/bookingList">
             <BookingList></BookingList>
+          </Route>
+
+          <Route path="/contactUs">
+            <Contact></Contact>
           </Route>
 
           <Route path="/review">
