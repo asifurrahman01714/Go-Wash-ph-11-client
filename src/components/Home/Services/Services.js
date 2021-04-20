@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 // import cavity from '../../../images/cavity.png';
 // import whitening from '../../../images/whitening.png';
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
-
+import './Services.css'
 const Services = () => {
     const [serviceList, setServiceList] = useState([]);
     const [loading, setLoading] = useState(true);
