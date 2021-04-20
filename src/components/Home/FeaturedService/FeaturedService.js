@@ -6,8 +6,8 @@ const FeaturedService = () => {
         <section className="features-service pb-0 pb-md-5 my-5">
             <div className="container mb-5">
                 <div className="row mb-5">
-                    <div className="col-md-5 mb-4 m-md-0">
-                        <img className="img-fluid" src={featured} alt=""/>
+                    <div className="col-md-5 mb-4 m-md-0 featured-img">
+                        <img className="img-fluid " src={featured} alt=""/>
                     </div>
                     <div className="col-md-7 align-self-center">
                         <h1>Order Laundry and Dry Cleaning on Your Phone</h1>

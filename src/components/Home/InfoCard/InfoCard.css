@@ -1,6 +1,10 @@
 .info-card{
     padding: 0 5px;
 }
+.info-icon:hover{
+    transform: scale(1.2);
+    transition: all 1s ;
+}
 .info-primary{
     background-color: #1CC7C1;
 }

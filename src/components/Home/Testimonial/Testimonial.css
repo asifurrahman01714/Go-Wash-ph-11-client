@@ -1,11 +1,8 @@
-.features-service{
-    margin-top: 150px!important;
-}
-.featured-img{
+.testimonial-img{
     box-sizing: border-box;
     overflow: hidden;
 }
-.featured-img:hover img{
+.testimonial-img:hover img{
     transform: scale(1.2);
     transition: all 1s;
 }

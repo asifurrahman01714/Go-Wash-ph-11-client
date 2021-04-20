@@ -1,15 +1,15 @@
 import React from 'react';
-
+import './Testimonial.css';
 const Testimonial = (props) => {
     console.log(props);
     const {quote,name,from } = props.review;
     return (
         <div className="card shadow-sm">
-            <div className="card-footer d-flex  align-items-center">
+            <div className="card-footer d-flex  align-items-center testimonial-img">
                 {
-                props.review.image ? <img className="mx-3"  width="60"  src={`data:image/png;base64,${props.review.image.img}`}/>
+                props.review.image ? <img className="mx-3 testimonial-img"  width="60"  src={`data:image/png;base64,${props.review.image.img}`}/>
                 :
-                <img  className="mx-3"  width="60" src={`https://lit-shore-90924.herokuapp.com/${props.review.img}`} alt=""/>
+                <img  className="mx-3 testimonial-img"  width="60" src={`https://lit-shore-90924.herokuapp.com/${props.review.img}`} alt=""/>
                 }
 
                 <div>
