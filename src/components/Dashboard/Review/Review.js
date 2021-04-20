@@ -25,7 +25,7 @@ const Review = () => {
         formData.append('quote', info.quote);
         formData.append('email', info.email);
 
-        fetch('http://localhost:5000/addAReview', {
+        fetch('https://lit-shore-90924.herokuapp.com/addAReview', {
             method: 'POST',
             body: formData
         })

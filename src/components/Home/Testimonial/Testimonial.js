@@ -9,7 +9,7 @@ const Testimonial = (props) => {
                 {
                 props.review.image ? <img className="mx-3"  width="60"  src={`data:image/png;base64,${props.review.image.img}`}/>
                 :
-                <img  className="mx-3"  width="60" src={`http://localhost:5000/${props.review.img}`} alt=""/>
+                <img  className="mx-3"  width="60" src={`https://lit-shore-90924.herokuapp.com/${props.review.img}`} alt=""/>
                 }
 
                 <div>

@@ -11,7 +11,7 @@ const Book = () => {
     const [id, setId] = useContext(IdContext);
     const [book, setBook] = useState({});
     useEffect(()=>{
-        fetch(`http://localhost:5000/book/${id}`)
+        fetch(`https://lit-shore-90924.herokuapp.com/book/${id}`)
         .then(res => res.json())
         .then(data => {
             console.log(data);
@@ -43,7 +43,7 @@ const Book = () => {
         formData.append('email', info.email);
         
 
-        fetch('http://localhost:5000/Book', {
+        fetch('https://lit-shore-90924.herokuapp.com/Book', {
             method: 'POST',
             body: formData
         })

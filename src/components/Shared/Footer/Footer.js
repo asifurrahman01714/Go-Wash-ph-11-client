@@ -31,7 +31,7 @@ const Footer = () => {
                 <div className="row py-5">
                     <FooterCol key={1} menuTitle={"."} menuItems={noNamed}/>
                     <FooterCol key={2} menuTitle="Services" menuItems={services}/>
-                    <FooterCol key={3} menuTitle="Oral Health" menuItems={oralHealth}/>
+                    <FooterCol key={3} menuTitle="Upcoming Services" menuItems={oralHealth}/>
                     <FooterCol key={4} menuTitle="Our Address" menuItems={ourAddress}> 
                         <ul className="social-media list-inline">
                             <li className="list-inline-item"><a href="//facebook.com"><FontAwesomeIcon className="icon active-icon" icon={faFacebookF} /></a></li>
