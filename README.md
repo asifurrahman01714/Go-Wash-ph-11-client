@@ -10,3 +10,5 @@
 # In home page I have added extra two section: 1. featured section & 2. Blog section
 # I have added simple animation with pure css in then icons of info card and images in testimonials.
 
+
+# git remote set-url origin https://github.com/user/repo2.git
